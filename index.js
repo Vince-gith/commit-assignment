@@ -21,4 +21,21 @@
 
 // 5. Null: This is set intentionally as nothing. it means empty or nothing. Eg. 
 //const rhyme2
-// rhyme2 = null
+// rhyme2 = null;
+
+
+
+let age = 23;
+console.log(age);
+
+//Assignmet 1
+function mul(a , b){
+    console.log(a + " * " + b + " = " , a*b)
+}
+
+mul (7,5);
+
+//Assignment 2
+function sub(a , b){
+console.log(a + " - " + b + " = " , a-b)
+}
