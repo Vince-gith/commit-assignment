@@ -44,12 +44,6 @@
 
 //voter eligibiility 
 
-// let age = 18;
-// let citizen = true;
-
-
-
-
 
 const age = prompt("Enter your age");
 
@@ -64,4 +58,5 @@ if (age < 18 && citizen === "no"){
 }else if (age >= 18 && citizen ==="no"){
     console.log("You are not eligible because you are not a citizen")
 }
+
 
