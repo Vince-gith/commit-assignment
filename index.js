@@ -25,17 +25,43 @@
 
 
 
-let age = 23;
-console.log(age);
+// let age = 23;
+// console.log(age);
 
-//Assignmet 1
-function mul(a , b){
-    console.log(a + " * " + b + " = " , a*b)
+// //Assignmet 1
+// function mul(a , b){
+//     console.log(a + " * " + b + " = " , a*b)
+// }
+
+// mul (7,5);
+
+// //Assignment 2
+// function sub(a , b){
+// console.log(a + " - " + b + " = " , a-b)
+// }
+
+
+
+//voter eligibiility 
+
+// let age = 18;
+// let citizen = true;
+
+
+
+
+
+const age = prompt("Enter your age");
+
+const citizen = prompt("Are you a citizen: Yes or No");
+
+if (age < 18 && citizen === "no"){
+    console.log("Not eligible at all")
+}else if (age <= 18 && citizen === "yes"){
+    console.log("You are not eligible because of your age")
+}else if (age >= 18 && citizen ==="yes"){
+    console.log("You are eligible to vote")
+}else if (age >= 18 && citizen ==="no"){
+    console.log("You are not eligible because you are not a citizen")
 }
 
-mul (7,5);
-
-//Assignment 2
-function sub(a , b){
-console.log(a + " - " + b + " = " , a-b)
-}
